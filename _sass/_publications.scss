@@ -80,6 +80,67 @@
         font-weight: bolder;
       }
 
+      .venue-type {
+        margin-bottom: 0.35rem;
+      }
+
+      .venue-type-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        padding: 0.18rem 0.65rem;
+        border-radius: 999px;
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        line-height: 1.2;
+
+        i {
+          font-size: 0.78rem;
+        }
+
+        &.journal {
+          color: #0f766e;
+          background: rgba(15, 118, 110, 0.1);
+          border: 1px solid rgba(15, 118, 110, 0.22);
+        }
+
+        &.conference {
+          color: #6d28d9;
+          background: rgba(109, 40, 217, 0.1);
+          border: 1px solid rgba(109, 40, 217, 0.22);
+        }
+
+        &.thesis {
+          color: #b45309;
+          background: rgba(180, 83, 9, 0.1);
+          border: 1px solid rgba(180, 83, 9, 0.22);
+        }
+      }
+
+      html[data-theme="dark"] & {
+        .venue-type-badge {
+          &.journal {
+            color: #5eead4;
+            background: rgba(15, 118, 110, 0.2);
+            border-color: rgba(94, 234, 212, 0.25);
+          }
+
+          &.conference {
+            color: #c4b5fd;
+            background: rgba(109, 40, 217, 0.22);
+            border-color: rgba(196, 181, 253, 0.25);
+          }
+
+          &.thesis {
+            color: #fcd34d;
+            background: rgba(180, 83, 9, 0.22);
+            border-color: rgba(252, 211, 77, 0.25);
+          }
+        }
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);

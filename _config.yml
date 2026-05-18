@@ -1,0 +1,158 @@
+# Site identity
+title: blank
+first_name: Yan
+middle_name:
+last_name: Zeng
+description: Personal website of Yan Zeng.
+keywords: academic website, computer vision, generative ai, medical imaging
+lang: en
+icon: 🎓
+
+url: https://yan-zen9.github.io
+baseurl:
+
+contact_note: >
+  Email is the best way to reach me.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+# Layout
+navbar_fixed: true
+footer_fixed: true
+back_to_top: true
+last_updated: false
+impressum_path:
+max_width: 930px
+
+# Features used by this site
+search_enabled: false
+enable_darkmode: true
+enable_navbar_social: false
+enable_progressbar: true
+enable_publication_thumbnails: false
+enable_video_embedding: false
+
+serve_og_meta: false
+serve_schema_org: false
+og_image:
+
+enable_google_verification: false
+enable_bing_verification: false
+google_site_verification:
+bing_site_verification:
+
+newsletter:
+  enabled: false
+
+# Content
+collections:
+  news:
+    output: false
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include:
+  - _pages
+
+exclude:
+  - .bundle/
+  - .jekyll-cache/
+  - vendor/
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+keep_files:
+  - CNAME
+  - .nojekyll
+
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-cache-bust
+  - jekyll-email-protect
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+
+# Publications
+scholar:
+  last_name: [Zeng]
+  first_name: [Yan]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+filtered_bibtex_keywords:
+  [
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    annotation,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    dimensions,
+    eprint,
+    google_scholar_id,
+    hal,
+    html,
+    inspirehep_id,
+    pdf,
+    pmid,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
+
+max_author_limit: 3
+more_authors_animation_delay: 10
+
+# CDN libraries referenced by the active layouts
+third_party_libraries:
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+  mdb:
+    integrity:
+      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css"
+      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"

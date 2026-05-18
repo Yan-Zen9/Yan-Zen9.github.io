@@ -30,7 +30,7 @@ search_enabled: false
 enable_darkmode: true
 enable_navbar_social: false
 enable_progressbar: true
-enable_publication_thumbnails: false
+enable_publication_thumbnails: true
 enable_video_embedding: false
 
 serve_og_meta: false

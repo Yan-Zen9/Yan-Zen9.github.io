@@ -1,3 +1,6 @@
 "Neurocomputing":
   url: https://www.journals.elsevier.com/neurocomputing
   color: "#e97132"
+"BMVC":
+  url: https://bmvc2026.bmva.org/
+  color: "#6d28d9"

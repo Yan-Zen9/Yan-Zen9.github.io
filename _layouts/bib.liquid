@@ -2,7 +2,7 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col col-sm-3 abbr">
       {% if entry.preview %}
         {% assign preview_alt = entry.abbr | default: entry.journal | default: entry.preview %}
         {% assign venue_url = null %}
@@ -71,7 +71,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-9{% else %}col-sm-10{% endif %}">
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     <!-- Title -->
@@ -203,7 +203,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}

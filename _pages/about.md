@@ -22,7 +22,7 @@ announcements:
 
 ## About Me
 
-I am a **Research Assistant** at **DTU Compute**, Technical University of Denmark (DTU), in Kongens Lyngby, Denmark. My academic background is in **Computer Science and Engineering**. Before joining DTU, I received my bachelor's degree in **Software Engineering** from **Chongqing University of Posts and Telecommunications** in Chongqing, China.
+I am a **Research Assistant** at **DTU Compute**, Technical University of Denmark (DTU), in Kongens Lyngby, Denmark. Alongside this role, I am pursuing an M.Sc. in **Computer Science and Engineering** at DTU. Before joining DTU, I earned my bachelor's degree in **Software Engineering** from **Chongqing University of Posts and Telecommunications** in Chongqing, China.
 
 My research interests include **Computer Vision**, **Generative AI**, and **Medical Imaging**. Outside research, I enjoy playing basketball, hiking, traveling, and PC games, especially League of Legends and Valorant.
 
@@ -31,3 +31,10 @@ My research interests include **Computer Vision**, **Generative AI**, and **Medi
 - Computer Vision
 - Generative AI
 - Medical Imaging
+
+## Teaching
+
+**DTU**
+
+- **02225** Distributed Real-Time Systems
+- **62531** Development Methods for IT Systems

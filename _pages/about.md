@@ -9,8 +9,8 @@ profile:
   image: yan_zeng.jpeg
   image_circular: true
   more_info: >
-    <p>M.Sc. Student</p>
-    <p>Technical University of Denmark</p>
+    <p>Research Assistant</p>
+    <p>DTU Compute</p>
 
 social: true # includes social icons at the bottom of the page
 
@@ -22,7 +22,7 @@ announcements:
 
 ## About Me
 
-I am an M.Sc. student in **Computer Science and Engineering** at the **Technical University of Denmark (DTU)** in Kongens Lyngby, Denmark. Before joining DTU, I received my bachelor's degree in **Software Engineering** from **Chongqing University of Posts and Telecommunications** in Chongqing, China.
+I am a **Research Assistant** at **DTU Compute**, Technical University of Denmark (DTU), in Kongens Lyngby, Denmark. My academic background is in **Computer Science and Engineering**. Before joining DTU, I received my bachelor's degree in **Software Engineering** from **Chongqing University of Posts and Telecommunications** in Chongqing, China.
 
 My research interests include **Computer Vision**, **Generative AI**, and **Medical Imaging**. Outside research, I enjoy playing basketball, hiking, traveling, and PC games, especially League of Legends and Valorant.
 

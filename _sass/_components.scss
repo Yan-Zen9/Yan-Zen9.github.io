@@ -143,37 +143,8 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// CV
-
-.cv-pdf-actions {
-  margin-bottom: 1rem;
-
-  .btn {
-    border: 1px solid var(--global-text-color);
-    color: var(--global-text-color);
-
-    &:hover {
-      border-color: var(--global-theme-color);
-      color: var(--global-theme-color);
-    }
-  }
-}
-
 .publications [id] {
   scroll-margin-top: 6rem;
-}
-
-.cv-pdf-viewer {
-  width: 100%;
-  height: min(78vh, 960px);
-  min-height: 640px;
-  border: 1px solid var(--global-divider-color);
-}
-
-@media (max-width: 575.98px) {
-  .cv-pdf-viewer {
-    min-height: 520px;
-  }
 }
 
 // Social (bottom)

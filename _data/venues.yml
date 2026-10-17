@@ -4,3 +4,6 @@
 "BMVC":
   url: https://bmvc2026.bmva.org/
   color: "#6d28d9"
+"WACV":
+  url: https://wacv.thecvf.com/Conferences/2027
+  color: "#f15a27"

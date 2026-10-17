@@ -44,31 +44,27 @@
         width: 100%;
       }
 
-      // Side-by-side layout: the preview card takes the height of the text column,
-      // and the figure is shown whole inside it (no cropping).
+      // Every publication gets the same 16:9 preview card; the figure is shown
+      // whole inside it (no cropping), on a white background.
+      .preview {
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+        background-color: #fff;
+        vertical-align: top;
+      }
+
+      // Side-by-side layout: center the card vertically against the entry text.
       @media (min-width: 576px) {
         > .row {
-          align-items: stretch;
+          align-items: center;
         }
 
         > .row > .abbr {
-          display: flex;
           margin-bottom: 0;
 
-          > a,
-          figure,
-          picture {
-            display: flex;
-            width: 100%;
-            height: 100%;
+          figure {
             margin: 0;
           }
-        }
-
-        .preview {
-          height: 100%;
-          object-fit: contain;
-          background-color: #fff;
         }
       }
 
